@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FabriFlix</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form> 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" ><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" ><br>
+
+        <label for="name">Name and Lastname:</label>
+        <input type="text" id="name" name="name" ><br>
+
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob" ><br>
+
+        <label for="phone">Telephone number:</label>
+        <input type="tel" id="phone" name="phone" ><br>
+
+        <label for="plans">Scegli un Piano:</label>
+        <select id="plans" name="plans">
+            <option value="free">Free Plan</option>
+            <option value="basic">Basic Plan (10/month)</option>
+            <option value="standard">Standard Plan (20/month)</option>
+            <option value="premium">Premium Plan (30/month)</option>
+        </select><br>
+
+        <input type="checkbox" id="proPlan" name="proPlan" value="pro">
+        <label for="proPlan">Esegui l'Upgrade a Pro ($50/month)</label><br>
+
+        <label for="creditCard">Credit Card Number:</label>
+        <input type="text" id="creditCard" name="creditCard" ><br>
+
+        <label for="cvc">CVC:</label>
+        <input type="text" id="cvc" name="cvc" ><br>
+
+        <label for="expirationDate">Expiration Date:</label>
+        <input type="text" id="expirationDate" name="expirationDate" <br>
+
+        <label for="billingAddress">Billing Address:</label>
+        <textarea id="billingAddress" name="billingAddress" rows="4" ></textarea><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
